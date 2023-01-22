@@ -1,0 +1,41 @@
+<head>
+    <script src="functions.js"></script>
+    <script src="logic.js"></script>
+
+    <link rel="stylesheet" href="look.css">
+</head>
+
+<body>
+    <div class="innter">
+        <div class="center">
+            <h1>Binary calculator</h1>
+            <label class="font_label">Decimal input</label>
+            <br>
+            <textarea id="decimal_input" rows="4" cols="50" oninput="decimal_input_changed();"></textarea>
+
+            <br>
+            <br>
+
+            <label class="font_label">Binary output</label>
+            <br>
+            <textarea id="binary_input" rows="4" cols="50" readonly></textarea>
+            
+            <br>
+            <br>
+            <label class="font_label" style="color: rgb(255, 189, 189)">Answer</label>
+            <br>
+            <span class="to_left">Binary:</span>
+            <label id="binary_answer" class="to_left_label"></label>
+
+            <br>
+            <br>
+
+            <span class="to_left">Decimal:</span>
+            <label id="decimal_answer" class="to_left_label"></label>
+
+            <br>
+            <br>
+            <label id="error" class="font_label">status</label>
+        </div>
+    </div>
+</body>

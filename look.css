@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(66, 66, 66);
+    color: white
+}
+
+.outer {
+    width: 100%;
+}
+
+.center {
+    border: 3px solid rgb(212, 212, 212);
+    padding: 10px;
+    text-align: center;
+    resize: both;
+    overflow: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+    display: table;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.font_label {
+    font-size:2vw;
+}
+
+.to_left {
+    font-size:2vw;
+    text-align: left;
+    float:left
+}
+
+.to_left_label {
+    margin-left: 30px;
+    font-size:2vw;
+    text-align: left;
+    float:left
+}
